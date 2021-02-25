@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HelloController;
 use App\Http\Controllers\HelloController2;
+use App\Http\Controllers\PeopleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,3 +30,7 @@ Route::post('/value_input/sum',[HelloController2::class, 'value_sum']);
 //Homework1-3
 Route::get('/id',[HelloController2::class, 'id_input']);
 Route::post('/id/result',[HelloController2::class, 'id_result']);
+
+//people_table
+Route::get('/input',[PeopleController::class, 'input']);
+Route::post('/input/result',[PeopleController::class, 'result']);
