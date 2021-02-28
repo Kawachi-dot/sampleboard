@@ -19,5 +19,7 @@ class PeopleController extends Controller
         $birthday=$request->input('birthday');
         return view('people_table\result',compact('name','email','tel','age','address','birthday'));
       }
-    
+    public function list(){
+        return view('people_table\list');
+      }
 }
