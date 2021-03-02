@@ -8,6 +8,7 @@
     <h1>登録情報一覧</h1>
     <table border='1'>
        <tr>
+          <th>ID</th>
           <th>名前</th>
           <th>メールアドレス</th>
           <th>電話番号</th>
