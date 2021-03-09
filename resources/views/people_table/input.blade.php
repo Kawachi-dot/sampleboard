@@ -5,7 +5,7 @@
     <title>情報入力</title>
 </head>
 <body>
-   <form method='POST' action='input/result'>
+   <form method='POST' action='/result'>
    {{csrf_field()}}
       <p>名前：　　　　　
         <input type='text' name='name'>

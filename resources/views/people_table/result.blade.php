@@ -15,5 +15,6 @@
         <li>{{$birthday}}</li>
       </ul>
       <a href="{{url('/input')}}"><input type='submit' value='戻る' name='back'></a>
+      <a href="/list"><input type='submit' value='一覧へ'></a>
 </body>
 </html>

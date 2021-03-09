@@ -33,5 +33,8 @@ Route::post('/id/result',[HelloController2::class, 'id_result']);
 
 //people_table
 Route::get('/input',[PeopleController::class, 'input']);
-Route::post('/input/result',[PeopleController::class, 'result']);
+Route::post('/result',[PeopleController::class, 'result']);
 Route::get('/list',[PeopleController::class, 'list']);
+Route::get('/edit/{user_id}',[PeopleController::class,'edit']);
+Route::post('/update/{user_id}',[PeopleController::class,'update']);
+Route::post('/delete/{user_id}',[PeopleController::class,'delete']);
